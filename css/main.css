@@ -1,0 +1,56 @@
+body, html {
+  text-align: center;
+  font-family: Gotham, Helvetica, Arial, sans-serif;
+  font-size: 1em;
+}
+
+section {
+  width: 50%;
+  margin: auto;
+}
+
+h1 {
+  font-size: 2em;
+  color: #7B7D70;
+}
+
+h2 {
+  font-size: 1.5em;
+  color: #4EAFB8;
+}
+
+p {
+  color: #FF8641;
+}
+
+
+/****** TABLETS ******/
+@media (min-width: 768px) {
+  h1 {
+    color: #02CBD2;
+  }
+
+  h2 {
+    color: #FCC02A;
+  }
+
+  p {
+    color: #7B8F8E;
+  }
+}
+
+
+/****** DESKTOPS ******/
+@media (min-width: 1200px) {
+  h1 {
+    color: #6E4B61;
+  }
+
+  h2 {
+    color: #CABD61;
+  }
+
+  p {
+    color: #C19E74;
+  }
+}
